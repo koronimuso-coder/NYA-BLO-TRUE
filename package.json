@@ -1,0 +1,17 @@
+{
+    "name": "nya-blo-monorepo",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "dev": "pnpm -r run dev",
+        "build": "pnpm -r run build",
+        "lint": "pnpm -r run lint",
+        "test": "pnpm -r run test"
+    },
+    "devDependencies": {
+        "turbo": "^1.10.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
